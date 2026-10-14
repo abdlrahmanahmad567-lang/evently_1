@@ -15,6 +15,9 @@ class EventFirebaseService {
         );
   }
 
+
+
+
   static Future<void> addEvent(EventModel event) async {
     var collection = getEventsCollection();
     var doc = collection.doc();
